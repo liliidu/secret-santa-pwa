@@ -1,12 +1,11 @@
-import { useState } from 'react'
 import './App.css'
-import { SecretSantaLogo } from './components/SecretSantaLogo'
+import { StartPage } from '@/pages/StartPage'
+
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <SecretSantaLogo />
+      <StartPage />
     </>
   )
 }
