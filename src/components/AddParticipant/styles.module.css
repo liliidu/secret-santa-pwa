@@ -16,7 +16,15 @@
   color: var(--font-color);
 }
 
+.inputWrapper {
+  display: flex;
+  box-sizing: border-box;
+}
+
 .input {
+  flex: 1;
+  height: 100%;
+  width: 100%;
   border: 1px solid var(--font-color);
   border-radius: var(--border-radius);
   padding: 1rem 1.5rem;

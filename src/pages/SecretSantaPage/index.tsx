@@ -5,18 +5,18 @@ import { Button } from "@/components/Button";
 
 import styles from "./styles.module.css";
 import { AddParticipant } from "@/components/AddParticipant";
+import { ParticipantList } from "@/components/ParticipantList";
 
 export const SecretSantaPage = () => {
-  const [participants, setParticipants] = useState<
-    { name: string; email: string }[]
-  >([]);
+  const [participants, setParticipants] = useState<string[]>([]);
 
   return (
     <div className={styles.container}>
       <Title>Secret Santa Gang 🎅</Title>
+      <ParticipantList participants={participants} />
       <AddParticipant
-        onAddParticipantClick={(name, email) =>
-          setParticipants([...participants, { name, email }])
+        onAddParticipantClick={(name) =>
+          setParticipants([...participants, name])
         }
       />
       <Button color="secondary" onClick={() => {}}>

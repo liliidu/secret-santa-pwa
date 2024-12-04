@@ -16,25 +16,15 @@ export const AddParticipant = ({
         <label htmlFor="name" className={styles.label}>
           Name
         </label>
-        <input
-          id="name"
-          type="text"
-          className={styles.input}
-          onChange={(e) => setName(e.target.value)}
-          value={name}
-        />
-      </div>
-      <div className={styles.inputContainer}>
-        <label htmlFor="email" className={styles.label}>
-          Email
-        </label>
-        <input
-          id="email"
-          type="text"
-          className={styles.input}
-          onChange={(e) => setEmail(e.target.value)}
-          value={email}
-        />
+        <div className={styles.inputWrapper}>
+          <input
+            id="name"
+            type="text"
+            className={styles.input}
+            onChange={(e) => setName(e.target.value)}
+            value={name}
+          />
+        </div>
       </div>
       <div>
         <Button
