@@ -6,5 +6,12 @@
   "display": "standalone",
   "theme_color": "#f14350",
   "background_color": "#ffffff",
-  "orientation": "portrait-primary"
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "assets/secret_santa.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
 }
