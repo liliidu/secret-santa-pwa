@@ -9,26 +9,35 @@
   "orientation": "portrait-primary",
   "icons": [
     {
-      "src": "santa-144x144.png",
+      "src": "src/assets/santa-144x144.png",
       "sizes": "144x144",
       "type": "image/png"
     },
     {
-      "src": "santa-512x512.png",
+      "src": "src/assets/santa-512x512.png",
       "sizes": "512x512",
       "type": "image/png"
     },
     {
-      "src": "santa-512x512.png",
+      "src": "src/assets/santa-512x512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "santa-512x512.png",
+      "src": "src/assets/santa-512x512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "src/assets/santa-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Santa"
     }
   ]
 }
