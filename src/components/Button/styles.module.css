@@ -1,16 +1,31 @@
-.primaryButton {
+.button {
   border: none;
-  background-color: var(--primary-color);
-  padding: 1rem 2rem;
   border-radius: var(--border-radius);
   color: var(--on-primary-color);
   cursor: pointer;
 
   font-family: "Libre Franklin", sans-serif;
-  font-size: 1.2rem;
   font-weight: 500;
 
   &:hover {
     filter: brightness(120%);
   }
+}
+
+.primaryButton {
+  background-color: var(--primary-color);
+}
+
+.secondaryButton {
+  background-color: var(--secondary-color);
+}
+
+.smallButton {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+}
+
+.mediumButton {
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
 }
