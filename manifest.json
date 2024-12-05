@@ -4,7 +4,7 @@
   "description": "Secret Santa made in React for testing PWA",
   "start_url": "/secret-santa-pwa/",
   "display": "standalone",
-  "theme_color": "#f14350",
+  "theme_color": "#ffffff",
   "background_color": "#ffffff",
   "orientation": "portrait-primary",
   "icons": [
