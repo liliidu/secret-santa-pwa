@@ -2,30 +2,30 @@
   "name": "Secret Santa PWA",
   "short_name": "SecretSanta",
   "description": "Secret Santa made in React for testing PWA",
-  "start_url": "index.html",
+  "start_url": "/",
   "display": "standalone",
   "theme_color": "#f14350",
   "background_color": "#ffffff",
   "orientation": "portrait-primary",
   "icons": [
     {
-      "src": "/santa-144x144.png",
+      "src": "/secret-santa-pwa/santa-144x144.png",
       "sizes": "144x144",
       "type": "image/png"
     },
     {
-      "src": "/santa-512x512.png",
+      "src": "/secret-santa-pwa/santa-512x512.png",
       "sizes": "512x512",
       "type": "image/png"
     },
     {
-      "src": "/santa-512x512.png",
+      "src": "/secret-santa-pwa/santa-512x512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "/santa-512x512.png",
+      "src": "/secret-santa-pwa/santa-512x512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
@@ -33,10 +33,17 @@
   ],
   "screenshots": [
     {
-      "src": "/santa-512x512.png",
+      "src": "/secret-santa-pwa/santa-512x512.png",
       "sizes": "512x512",
       "type": "image/png",
       "form_factor": "narrow",
+      "label": "Santa"
+    },
+    {
+      "src": "/secret-santa-pwa/santa-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "form_factor": "wide",
       "label": "Santa"
     }
   ]
