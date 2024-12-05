@@ -2,7 +2,7 @@
   "name": "Secret Santa PWA",
   "short_name": "SecretSanta",
   "description": "Secret Santa made in React for testing PWA",
-  "start_url": "/",
+  "start_url": "/secret-santa-pwa/",
   "display": "standalone",
   "theme_color": "#f14350",
   "background_color": "#ffffff",
